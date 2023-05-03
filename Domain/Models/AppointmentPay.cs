@@ -1,19 +1,23 @@
-using Mc2.CrudTest.Domain.Server.Configurations;
+using Domain.Common;
+using Domain.Configurations;
 using Microsoft.EntityFrameworkCore;
 using DbContext = SoftDeletes.Core.DbContext;
 
-namespace Mc2.CrudTest.Domain.Server.Models;
-[EntityTypeConfiguration(typeof(CustomerConfiguration))]
+namespace Domain.Models;
 
-public class Customer :SoftDeletes.ModelTools.ModelExtension
+[EntityTypeConfiguration(typeof(AppointmentPayConfiguration))]
+
+public class AppointmentPay:ModelExtension
 {
-    public long Id { get; set; }
-    public string? FirstName { get; set; }
-    public string? LastName { get; set; }
-    public DateTime DateOfBirth { get; set; }
-    public string? PhoneNumber { get; set; }
-    public string? Email { get; set; }
-    public string? BankAccountNumber { get; set; }
+    public long AppointmentId { get; set; }
+    public Appointment Appointment { get; set; }
+    public long PatientId { get; set; }
+    public Patient Patient { get; set; }
+    public long Price { get; set; }
+    public bool IsPaid { get; set; }
+    public DateTime PaidTime { get; set; }
+    public long? InsuranceId { get; set; }
+    public Insurance Insurance { get; set; }
     public override Task OnSoftDeleteAsync(DbContext context, CancellationToken cancellationToken = new CancellationToken())
     {
         return Task.CompletedTask;
