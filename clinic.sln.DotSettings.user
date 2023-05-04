@@ -1,0 +1,24 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4f931dbf_002Df4ed_002D48cc_002D9974_002Dbafda8630b70/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetInsurancePaidAppointmentPayTest_Notfound" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5fe547a7_002D1de5_002D46e0_002Db635_002Dc29d70dd586b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetTodoListQuery_ShouldReturnTodoList" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::88A58DDB-6391-458E-B9C4-5258DFDD92AA::net6.0::UnitTest.UnitTest1.GetTodoListQuery_ShouldReturnTodoList&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8fd38bfa_002D8427_002D49ea_002Db77e_002Df8435e6ebee3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetNotCompleteInstallmentTest_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::88A58DDB-6391-458E-B9C4-5258DFDD92AA::net6.0::UnitTest.GetInsurancePaidAppointmentPayTest.GetNotCompleteInstallmentTest_Success&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=91d549e0_002D0c40_002D46aa_002D92cf_002Daa531423a948/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetTodoListQuery_ShouldReturnTodoList #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::88A58DDB-6391-458E-B9C4-5258DFDD92AA::net6.0::UnitTest.GetInsurancePaidAppointmentPayTest.GetInsurancePaidAppointmentPayTest_Notfound&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c9d5242b_002D68a9_002D49f6_002D89c3_002D60f044938c9d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetTodoListQuery_ShouldReturnTodoList #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::88A58DDB-6391-458E-B9C4-5258DFDD92AA::net6.0::UnitTest.UnitTest1.GetTodoListQuery_ShouldReturnTodoList&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
