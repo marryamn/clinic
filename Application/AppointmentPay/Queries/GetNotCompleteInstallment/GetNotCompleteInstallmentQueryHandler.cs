@@ -9,21 +9,17 @@ using MediatR;
 
 namespace Application.AppointmentPay.Queries.GetNotCompleteInstallment;
 
-public class GetNotCompleteInstallmentQueryHandler : AbstractRequestHandler<GetNotCompleteInstallmentQuery,
-    StdResponse<GetNotCompleteInstallmentDto>>
+public class GetNotCompleteInstallmentQueryHandler:AbstractRequestHandler<GetNotCompleteInstallmentQuery, StdResponse<GetNotCompleteInstallmentDto>>
 {
-    private IAppointmentPayRepository AppointmentPayRepository { get; }
-    private IPatientRepository PatientRepository { get; }
+private IAppointmentPayRepository AppointmentPayRepository { get; }
+private IPatientRepository PatientRepository { get; }
 
-    public GetNotCompleteInstallmentQueryHandler(IAppointmentPayRepository appointmentPayRepository,
-        IPatientRepository patientRepository)
-    {
-        AppointmentPayRepository = appointmentPayRepository;
-        PatientRepository = patientRepository;
-        
-    }
-
-    
+public GetNotCompleteInstallmentQueryHandler(IAppointmentPayRepository appointmentPayRepository,IPatientRepository patientRepository )
+{
+    AppointmentPayRepository=appointmentPayRepository;
+    PatientRepository = patientRepository;
+   
+}
 
 
     public override async Task<StdResponse<GetNotCompleteInstallmentDto>> Handle(GetNotCompleteInstallmentQuery request,
@@ -36,12 +32,13 @@ public class GetNotCompleteInstallmentQueryHandler : AbstractRequestHandler<GetN
         }
 
         var notPaidAppointmentPays = await AppointmentPayRepository.GetPatientInstallment(PatientId: request.PatientId,
-            IsPaid: false, request.Page,
+            IsPaid: request.IsPaid, request.Page,
             request.PageSize, _);
 
 
         var patient = await PatientRepository.Get(request.PatientId, _);
 
+       
         return Ok(new GetNotCompleteInstallmentDto()
         {
             GetAppointmentLists = new PaginationModel<GetAppointmentListDto>()
