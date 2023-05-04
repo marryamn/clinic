@@ -11,9 +11,6 @@ public class InsuranceConfiguration: AbstractModelMap<Insurance>
     {
         base.Configure(builder);
 
-        builder.HasOne(x => x.Patient)
-            .WithMany(x => x.Insurances)
-            .HasForeignKey(x => x.PatientId)
-            .OnDelete(DeleteBehavior.Cascade);
+        
     }  
 }
