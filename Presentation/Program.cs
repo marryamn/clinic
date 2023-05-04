@@ -1,8 +1,4 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
-using Presentation;
-
-namespace Mc2.CrudTest.Presentation.Server
+﻿namespace Presentation
 {
     public class Program
     {
