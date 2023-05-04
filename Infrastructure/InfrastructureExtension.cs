@@ -1,3 +1,6 @@
+using Infrastructure.Repositories.AppointmentPay;
+using Infrastructure.Repositories.Insurance;
+using Infrastructure.Repositories.Patient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,6 +23,10 @@ namespace Infrastructure
                 }
             });
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+            services.AddScoped<IAppointmentPayRepository, AppointmentPayRepository>();
+            services.AddScoped<IPatientRepository, PatientRepository>();
+            services.AddScoped<IInsuranceRepository, InsuranceRepository>();
+
             return services;
         }
     }
