@@ -26,6 +26,7 @@ public class GetInsurancePaidAppointmentPayQueryHandler: AbstractRequestHandler<
 
     public override async Task<StdResponse<GetInsurancePaidAppointmentPayDto>> Handle(GetInsurancePaidAppointmentPayQuery request, CancellationToken _)
     {
+
         if (!await InsuranceRepository.Exists(request.InsuranceId, _))
         {
             return NotFoundMsg<GetInsurancePaidAppointmentPayDto>("شرکت بیمه ای با این مشخصات موجود نیست.");

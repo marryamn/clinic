@@ -19,4 +19,13 @@ public class PatientRepository:IPatientRepository
     {
         return await DbContext.Patients.FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
     }
+    
+    public async Task<Domain.Models.Patient> Add(Domain.Models.Patient patient,
+        CancellationToken cancellationToken = default)
+    {
+        await DbContext.AddAsync(patient, cancellationToken);
+        await DbContext.SaveChangesAsync(cancellationToken);
+
+        return patient;
+    }
 }
