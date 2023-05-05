@@ -20,4 +20,13 @@ public class InsuranceRepository:IInsuranceRepository
     {
         return await DbContext.Insurances.FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
     }
+    
+    public async Task<Domain.Models.Insurance> Add(Domain.Models.Insurance insurance,
+        CancellationToken cancellationToken = default)
+    {
+        await DbContext.AddAsync(insurance, cancellationToken);
+        await DbContext.SaveChangesAsync(cancellationToken);
+
+        return insurance;
+    }
 }

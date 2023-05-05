@@ -41,4 +41,14 @@ public class AppointmentPayRepository:IAppointmentPayRepository
             .OrderByDescending(x => x.CreatedAt)
             .UsePaginationAsync(page, pageSize, cancellationToken);
     }
+    
+    
+    public async Task<Domain.Models.AppointmentPay> Add(Domain.Models.AppointmentPay appointmentPay,
+        CancellationToken cancellationToken = default)
+    {
+        await DbContext.AddAsync(appointmentPay, cancellationToken);
+        await DbContext.SaveChangesAsync(cancellationToken);
+
+        return appointmentPay;
+    }
 }

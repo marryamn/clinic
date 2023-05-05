@@ -1,24 +1,56 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4f931dbf_002Df4ed_002D48cc_002D9974_002Dbafda8630b70/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetInsurancePaidAppointmentPayTest_Notfound" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Solution /&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5fe547a7_002D1de5_002D46e0_002Db635_002Dc29d70dd586b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetTodoListQuery_ShouldReturnTodoList" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=01a76371_002D4513_002D4b0d_002Dbfb2_002Dc565e8c3c2b4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetNotCompleteInstallment work Succesfully #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::88A58DDB-6391-458E-B9C4-5258DFDD92AA::net6.0::UnitTest.UnitTest1.GetTodoListQuery_ShouldReturnTodoList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6CF3FC66-46E5-4F8B-83DE-18E8B57FA98F::net6.0::BDDTest.Features.AppointmentPayFeature.GetNotCompleteInstallmentWorkSuccesfully&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39d966a6_002Dab67_002D4f50_002D934d_002Dbbbc56e9b133/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetNotCompleteInstallment work Succesfully" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="D:\Projects\clinic\BDDTest" Presentation="&amp;lt;BDDTest&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8fd38bfa_002D8427_002D49ea_002Db77e_002Df8435e6ebee3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetNotCompleteInstallmentTest_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::88A58DDB-6391-458E-B9C4-5258DFDD92AA::net6.0::UnitTest.GetInsurancePaidAppointmentPayTest.GetNotCompleteInstallmentTest_Success&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=91d549e0_002D0c40_002D46aa_002D92cf_002Daa531423a948/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetTodoListQuery_ShouldReturnTodoList #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b0dbc29a_002D3f40_002D4188_002Db480_002D7621964e3247/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetNotCompleteInstallment Give Error" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::88A58DDB-6391-458E-B9C4-5258DFDD92AA::net6.0::UnitTest.GetInsurancePaidAppointmentPayTest.GetInsurancePaidAppointmentPayTest_Notfound&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6CF3FC66-46E5-4F8B-83DE-18E8B57FA98F::net6.0::BDDTest.Features.AppointmentPayFeature.GetNotCompleteInstallmentGiveError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6CF3FC66-46E5-4F8B-83DE-18E8B57FA98F::net6.0::BDDTest.Features.AppointmentPayFeature.GetInsurancePaidAppointmentPayWorkSuccessfully&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6CF3FC66-46E5-4F8B-83DE-18E8B57FA98F::net6.0::BDDTest.Features.AppointmentPayFeature.GetNotCompleteInstallmentWorkSuccessfully&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ba010c05_002D6351_002D4de3_002D8a99_002D1f21c59c637d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetInsurancePaidAppointmentPay work Successfully #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6CF3FC66-46E5-4F8B-83DE-18E8B57FA98F::net6.0::BDDTest.Features.AppointmentPayFeature.GetInsurancePaidAppointmentPayWorkSuccessfully&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c34d51ed_002D7e81_002D4411_002Da55d_002Dafd032e877d9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AppointmentPayFeature" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6CF3FC66-46E5-4F8B-83DE-18E8B57FA98F::net6.0::BDDTest.Features.AppointmentPayFeature&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c40d746f_002D3216_002D4f6c_002D83fe_002D722420ca48e3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetNotCompleteInstallment work Succesfully #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6CF3FC66-46E5-4F8B-83DE-18E8B57FA98F::net6.0::BDDTest.Features.AppointmentPayFeature.GetNotCompleteInstallmentWorkSuccesfully&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c4ac97f0_002De669_002D4052_002Dac73_002D28f029cc9148/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetInsurancePaidAppointmentPay work Successfully" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6CF3FC66-46E5-4F8B-83DE-18E8B57FA98F::net6.0::BDDTest.Features.AppointmentPayFeature&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c9d5242b_002D68a9_002D49f6_002D89c3_002D60f044938c9d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetTodoListQuery_ShouldReturnTodoList #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::88A58DDB-6391-458E-B9C4-5258DFDD92AA::net6.0::UnitTest.UnitTest1.GetTodoListQuery_ShouldReturnTodoList&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea2423c3_002Dc168_002D412d_002Da98b_002Dd6d1fea0f5f5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AppointmentPayFeature #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6CF3FC66-46E5-4F8B-83DE-18E8B57FA98F::net6.0::BDDTest.Features.AppointmentPayFeature&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=_0645_0634_062E_0635_0627_062A/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=_0646_06CC_0633_062A/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
